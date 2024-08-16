@@ -1,8 +1,9 @@
 import React from "react";
 import { useField } from "formik";
 
-const [field, meta] = useField(props);
+
 const Field = ({ label, ...props }) => {
+    const [field, meta] = useField(props);
     return <>
         <label className="block mb-2 text-sm text-gray-600">{label}</label>
         <input

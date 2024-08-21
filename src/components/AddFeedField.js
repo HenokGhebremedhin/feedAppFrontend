@@ -4,7 +4,7 @@ import { useField } from "formik";
 const AddFeedField = ({ label, ...props }) => {
 
     const [field, meta] = useField(props);
-    return  
+    return  (
     <>
     <textarea
       {...field}
@@ -19,6 +19,6 @@ const AddFeedField = ({ label, ...props }) => {
       <p className="text-red-600 text-xs italic mt-1">{meta.error}</p>
     ) : null}
 </>
-  };
+  )};
   
   export default AddFeedField;

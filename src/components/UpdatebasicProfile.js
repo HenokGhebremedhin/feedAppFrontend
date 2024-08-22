@@ -1,9 +1,9 @@
 import React, { useState, useRef, useContext } from "react";
 import { Formik, Form } from "formik";
 import * as Yup from "yup";
-import Badge from "../components/Badge";
-import Field from "../components/Field";
-import Button from "../components/Button";
+import Badge from "./Badge";
+import Field from "./Field";
+import Button from "./Button";
 
 import { updateBasicProfileApi } from "../util/ApiUtil";
 import { AppContext } from "../context/applicationContext";

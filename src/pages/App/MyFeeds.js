@@ -92,6 +92,7 @@ if (!userData) {
                   lastName={user.lastName}
                   profilePicture={user.profile.picture}
                   feedMetaData={feedMetaData}
+                  loadOnDelete={getMyFeeds}
                 />
               )
             )}
